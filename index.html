@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Singapore Swimming Club</title>
+  </head>
+  <body>
+
+
+    <header>
+      
+      <nav class="site-header fixed-top py-1" style="background-color: #fcd44d; color: black;">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logocolor.png" alt="logo" style="width:50px;"></a>
+          <a class="py-2 d-none d-md-inline-block" href="#">About Us</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Club Buzz</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">membership</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Wine & Dine</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Facilities</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Banquet</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Gallery</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Whats New</a>
+          <a class="py-2 d-none d-md-inline-block" href="#" onclick="searchbtn()"><input type="search" id="searchbox" style="display: none; border: none; padding-right: 0;"><i class="fa fa-search" aria-hidden="true"></i> </a>
+              
+        </div>
+      </nav>
+
+
+    </header>
+
+    <!-- Carousel -->
+    <div class="owl-carousel owl-theme">
+      <div style="position: relative;">
+        <img src="./assets/images/home-1.png" alt="premier family"/>
+        <div class="captionslider">
+          <h1>The Premier Family Club</h1>
+          <p>Where people make the difference</p>
+        </div>
+      </div>
+      <img src="./assets/images/home-2.png" alt="swimming kids"/>
+      <video autoplay loop style="width: 100%;">
+        <source src="./assets/stock-footage-brunette-woman-swimming-underwater-in-slow-motion.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video autoplay loop style="width: 100%;">
+        <source src="./assets/stock-footage-two-asian-boys-racing-with-their-father-in-a-pool.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+  </div>
+
+
+    <!-- Main content -->
+    <main> 
+      <div class="container">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link active"
+              id="pills-featured-tab"
+              data-toggle="pill"
+              href="#pills-featured"
+              role="tab"
+              aria-controls="pills-featured"
+              aria-selected="true"
+              >Featured</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-events-tab"
+              data-toggle="pill"
+              href="#pills-events"
+              role="tab"
+              aria-controls="pills-events"
+              aria-selected="false"
+              >Events</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-publication-tab"
+              data-toggle="pill"
+              href="#pills-publication"
+              role="tab"
+              aria-controls="pills-publication"
+              aria-selected="false"
+              >Publication</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-featured"
+            role="tabpanel"
+            aria-labelledby="pills-featured-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 text-center">
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    src="./assets/images/card1.png"
+                    class="card-img-top"
+                    alt="ordinary-membership"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      SALE OF ORDINARY MEMBERSHIP AT THE CLUB
+                    </h5>
+                    <div class="lineyellow"></div>
+                    <p class="card-text">
+                      Purchase of membership directly from the club
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    src="./assets/images/card2.png"
+                    class="card-img-top"
+                    alt="social dance"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      SOCIAL DANCE NIGHT BLACK & WHITE NIGHT
+                    </h5>
+                    <div class="lineyellow"></div>
+                    <p class="card-text">
+                      Come out and dance to a live band and have the time of
+                      your life.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    src="./assets/images/card3.png"
+                    class="card-img-top"
+                    alt="ssc open"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      21ST SSC OPEN INVITATIONAL MIDGET MEET 2015
+                    </h5>
+                    <div class="lineyellow"></div>
+                    <p class="card-text">
+                      12 & 13 SEPTEMBER <br/> Venue : Competition Pool
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    src="./assets/images/card4.png"
+                    class="card-img-top"
+                    alt="annual 9-ball"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      ANNUAL 9-BALL POOL COMPETITION
+                    </h5>
+                    <div class="lineyellow"></div>
+                    <p class="card-text text-left">
+                      Time : 7pm (weekdays) <br/>Venue : Billiards Room (Bowling
+                      Centre)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    src="./assets/images/card5.png"
+                    class="card-img-top"
+                    alt="22nd table tennis"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      22ND TABLE TENNIS OPEN CHAMPIONSHIP
+                    </h5>
+                    <div class="lineyellow"></div>
+                    <p class="card-text">
+                      Men's Singles / Doubles Ladies' Singles / Doubles Mixed
+                      Doubles
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <img
+                    src="./assets/images/card6.png"
+                    class="card-img-top"
+                    alt="weekend bazaar"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">WEEKEND BAZAAR EVERY SATURDAY</h5>
+                    <div class="lineyellow"></div>
+                    <p class="card-text text-left">
+                      Time : 10am to 10pm <br/>Venue : The Atrium
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-events"
+            role="tabpanel"
+            aria-labelledby="pills-events-tab"
+          >
+            Events Tabs
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-publication"
+            role="tabpanel"
+            aria-labelledby="pills-publication-tab"
+          >
+            Publication Tabs
+          </div>
+        </div>
+
+
+        <div class="upnews">
+          <span class="blocknews">
+            Upcoming News
+          </span>
+          <span class="textnews">
+            Sale of Ordinary Membership at the Club  
+          </span>
+        </div>
+
+        <div>
+          <div>
+            <p class="textnews2">
+              We are pleased to inform you that Members can now use their Credit Cards to make purchases at the 
+week-end Bazaar stalls.   <a href="#">Read More</a>
+            </p>
+          </div>
+          <div>
+            <p class="textnews2">
+              Come out and dance to a live band and have the time of your life. Gentlemen, this a chance to wear your
+tuxedos, and ladies find your little black dress that you have always wanted to wear.   <a href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="newnews">
+          <div>
+            <h2 style="color: #0071ba;">News</h2>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-2">
+
+            <!-- News 1 -->
+            <div class="col mb-4">
+              <div class="card">
+                
+                <div class="card-body bdleft">
+                  <p class="card-text"><small class="text-muted">15 September 2015</small></p>
+                  <h5 class="card-title" style="text-transform: uppercase;">The Palms open for breakfast</h5>
+                  <p class="card-text">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- News 2 -->
+            <div class="col mb-4">
+              <div class="card">
+                <div class="card-body bdleft">
+                  <p class="card-text"><small class="text-muted">10 September 2015</small></p>
+                  <h5 class="card-title" style="text-transform: uppercase;">pro shop operation hours</h5>
+                  <p class="card-text">
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- News 3 and 4 should appear below -->
+
+            <div class="col mb-4" id="newslist" style="display: none;">
+              <div class="card">
+                <div class="card-body bdleft">
+                  <p class="card-text"><small class="text-muted">10 September 2015</small></p>
+                  <h5 class="card-title" style="text-transform: uppercase;">pro shop operation hours</h5>
+                  <p class="card-text">
+                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" id="newslist2" style="display: none;">
+              <div class="card">
+                <div class="card-body bdleft">
+                  <p class="card-text"><small class="text-muted">10 September 2015</small></p>
+                  <h5 class="card-title" style="text-transform: uppercase;">pro shop operation hours</h5>
+                  <p class="card-text">
+                    The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div style="width: 100%; text-align: center;">
+            <button type="button" class="btn btn-link" onclick="readmore()" id="readmorebtn">Read More <b>+</b></button>
+          </div>
+        </div>
+          
+      <!--End of container  -->
+   </main>
+
+        <div class="bgfoot">
+        <footer class="pt-4 my-md-5 pt-md-5 container">
+          <div class="row">
+            <div class="col-12 col-md">
+              <img class="mb-2" src="./assets/images/logobw.png" alt="logobw">
+              <p style="font-size: 19px; font-weight: 300;">45 Tanjong Rhu Road
+                Singapore 436899
+                <br/>
+                Tel  :	(65) 6342 3600 <br/>
+                Fax :	(65) 6344 4476</p>
+
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 150px">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7963115879643!2d103.87925071475391!3d1.2968735990541107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da185ac05ddde3%3A0xb9c8e364e5c31319!2s45%20Tanjong%20Rhu%20Rd%2C%20Singapura%20436899!5e0!3m2!1sid!2sid!4v1593209376388!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+                <p style="font-size: 23px; font-weight: 300; margin-bottom: 0;">Email Newsletter</p>
+                <p style="font-size: 18px; font-weight: 300;">Subscribe to receive news in your inbox.</p>
+                <input type="email" class="form-control" placeholder="Email Address">
+                
+                <button type="submit" class="btn btn-primary form-control text-left" style="margin-top: 5px;">SUBSCRIBE</button>
+            </div>
+            <div class="col-6 col-md">
+              
+              <ul class="list-unstyled text-small">
+                <li><a href="#">Home</a></li>
+                <li><a href="#"><br></a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Brief History</a></li>
+                <li><a href="#">Club Milestones</a></li>
+                <li><a href="#">Management Committee & Club Management</a></li>
+                <li><a href="#">Club Directory</a></li>
+                <li><a href="#"><br></a></li>
+                <li><a href="#">Club Buzz</a></li>
+                <li><a href="#"><br></a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">General</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              
+              <ul class="list-unstyled text-small">
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Membership Schemes</a></li>
+                <li><a href="#">Reciprocal Schemes</a></li>
+                <li><a href="#">Golfing Membership</a></li>
+                <li><a href="#">Transfer Procdures & FAQ</a></li>
+                <li><a href="#">Find Out More</a></li>
+                <li><a href="#"><br></a></li>
+                <li><a href="#">Banquet</a></li>
+                <li><a href="#"><br></a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Swimming</a></li>
+                <li><a href="#">Social</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              
+              <ul class="list-unstyled text-small">
+                <li><a href="#">Wine and Dine</a></li>
+                <li><a href="#">Jackson Miller</a></li>
+                <li><a href="#">The Palms</a></li>
+                <li><a href="#">Jade Phoenix</a></li>
+                <li><a href="#">Cabana</a></li>
+                <li><a href="#">Le Petit Tressor</a></li>
+                <li><a href="#">The Delicatesen</a></li>
+                <li><a href="#">Fountain Bar</a></li>
+                <li><a href="#">D'Tanjong</a></li>
+                <li><a href="#">D'Sport</a></li>
+                <li><a href="#">D'Galaxy</a></li>
+                <li><a href="#">Straits of Malacca</a></li>
+                <li><a href="#"><br/></a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Swimming</a></li>
+                <li><a href="#">Social</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="copyright">
+        <p>© Copyright 2015. Singapore Swimming Club. All Rights Reserved</p>
+      </div>
+      
+
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+    items:1,
+    lazyLoad:true,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:5000
+});
+    </script>
+
+    <script>
+      function readmore() {
+       
+        var moreText = document.getElementById("newslist");
+        var moreText2 = document.getElementById("newslist2");
+        var readmorebtnv = document.getElementById("readmorebtn")
+
+        moreText.style.display="block";
+        moreText2.style.display="block";
+        readmorebtnv.style.display="none";
+ 
+}
+    </script>
+
+    <script>
+      function searchbtn(){
+        var icon = document.getElementById("searchbox");
+        icon.style.display="inline";
+      }
+    </script>
+  </body>
+</html>

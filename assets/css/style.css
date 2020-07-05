@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap");
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  font-weight: 300;
+  font-size: 36px;
+  padding: 5px 80px;
+  margin: 35px 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0071ba;
+}
+
+.card {
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.card-title {
+  font-size: 21px;
+  font-weight: 300;
+}
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.lineyellow {
+  background-color: #fcd44d;
+  height: 2px;
+  margin: 15px 0;
+}
+.card-img-top {
+  /* overflow: hidden; */
+  height: 156px;
+  object-fit: cover;
+}
+
+.bgfoot {
+  /* width: 100vw; */
+  background-color: #fcd44d;
+  height: 100%;
+  padding-bottom: 1px;
+}
+
+.upnews {
+  margin: 50px 0;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  border-right: 20px solid #0071ba;
+}
+
+.blocknews {
+  background-color: #0071ba;
+
+  color: white;
+  font-weight: 300;
+  font-size: 36px;
+
+  height: 100%;
+  line-height: 70px;
+  padding: 0 15px;
+}
+.textnews {
+  font-size: 21px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+
+.textnews2 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.blockright {
+  background-color: #0071ba;
+  height: 70px;
+  padding: 15px 5px;
+}
+
+.copyright {
+  background-color: #141826;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.copyright p {
+  margin: auto;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+li a {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #fcd44d;
+  border: none;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  /* margin-top: -50px; */
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  margin: 5px 7px;
+  border: 3px solid white;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+  background: transparent;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  height: 675px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.owl-carousel {
+  max-height: 675px;
+  overflow: hidden;
+}
+
+.captionslider {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: white;
+}
+
+.captionslider h1 {
+  font-weight: 100;
+  font-size: 47px;
+}
+
+.captionslider p {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.bdleft{
+  border-left: 3px solid #0071ba;
+}
+
+.newnews{
+  margin: 35px 0;
+}
+
+.pb-2, .py-2 {
+  padding-bottom: .5rem!important;
+  color: black;
+  height: 100%;
+  margin: auto;
+}
+
+ /* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+ @media (min-width: 425px) {
+  .bgfoot {
+    height: 100%;
+    width: 100%;
+}
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1080px;
+  }
+  
+}
